@@ -1,0 +1,13 @@
+{
+    "id": "fau-auto-login@alexander-ploner.com",
+    "title": "FAU Auto-Login",
+    "name": "fau-auto-login",
+    "version": "1.0.0",
+    "description": "This Add-on will ...",
+    "main": "index.js",
+    "author": "Alexander Ploner <alex@neatnet.de> (http://www.alexander-ploner.com/)",
+    "engines": {
+        "firefox": ">=34.0a1"
+    },
+    "license": "MIT"
+}

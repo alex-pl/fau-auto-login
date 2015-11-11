@@ -1,0 +1,22 @@
+{
+    "applications": {
+        "gecko": {
+	       "id": "fau-auto-login@alexander-ploner.com"
+        }
+    },
+    "manifest_version": 2,
+    "name": "FAU Auto-Login",
+    "description": "This Add-on will ...",
+    "version": "1.0.0",
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.sso.uni-erlangen.de/simplesaml/module.php/core/loginuserpass.php*"],
+            "js": ["data/sso.js"]
+        },
+        {
+            "matches": ["http://www.studon.uni-erlangen.de/studon/*"],
+            "js": ["data/studon.js"]
+        }
+    ]
+}
