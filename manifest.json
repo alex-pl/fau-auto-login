@@ -5,8 +5,9 @@
         }
     },
     "manifest_version": 2,
-    "name": "This Add-on automates the login process on several FAU (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.",
-    "description": "This Add-on will ...",
+    "name": "FAU Auto-Login",
+    "description": "This Add-on automates the login process on several FAU (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.",
+    "homepage_url": "https://github.com/alex-pl/fau-auto-login",
     "version": "1.0.0",
 
     "content_scripts": [
