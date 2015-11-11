@@ -1,15 +1,16 @@
 'use strict';
 
 // check if StudOn login page is opened
-if (document.getElementById('shibLoginHead')) {
+let loginArea = document.getElementById('shibLoginHead');
+if (loginArea) {
 
     // trigger login, if StudOn login page is opened
-    document.getElementById('shibLoginHead').querySelector('a').click();
+    loginArea.querySelector('a').click();
 
 } else {
 
     // otherwise try to redirect to StudOn login page
-    let loginPageLink = document.getElementById('mm_login_tr')
+    let loginPageLink = document.getElementById('mm_login_tr');
     if (loginPageLink) {
         loginPageLink.click();
     }
