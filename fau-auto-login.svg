@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fau-auto-login.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="Silberner_Hintergrund">
+      <stop
+         style="stop-color:#f1f1f1;stop-opacity:1"
+         offset="0"
+         id="stop5628" />
+      <stop
+         style="stop-color:#c3c3c3;stop-opacity:1"
+         offset="1"
+         id="stop5630" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#Silberner_Hintergrund"
+       id="radialGradient5634"
+       cx="350.78055"
+       cy="375.98386"
+       fx="350.78055"
+       fy="375.98386"
+       r="149.55"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5292072,1.6728693,-1.8873604,1.7252782,498.10524,-669.30564)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="188.24206"
+     inkscape:cy="453.13784"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="788"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:url(#radialGradient5634);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect4136"
+       width="299.10001"
+       height="299.10001"
+       x="222.49724"
+       y="376.6311"
+       ry="56.568542"
+       rx="56.568542" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4138"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(103.28541,235.81117)"><flowRegion
+         id="flowRegion4140"><rect
+           id="rect4142"
+           width="228.57143"
+           height="134.28572"
+           x="154.28572"
+           y="232.3622"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4144"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:90px;font-family:'Hiragino Kaku Gothic StdN';-inkscape-font-specification:'Hiragino Kaku Gothic StdN Ultra-Bold';text-align:center;text-anchor:middle;fill:#004974;fill-opacity:1">FAU</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4138-7"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(86.519314,327.56505)"><flowRegion
+         id="flowRegion4140-4"><rect
+           id="rect4142-5"
+           width="263.92679"
+           height="75.696854"
+           x="154.28572"
+           y="232.3622"
+           style="font-size:16.25px;text-align:center;text-anchor:middle;fill:#808080" /></flowRegion><flowPara
+         id="flowPara4144-4"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:32.5px;font-family:'Hiragino Kaku Gothic StdN';-inkscape-font-specification:'Hiragino Kaku Gothic StdN Ultra-Bold';text-align:center;text-anchor:middle;fill:#808080;fill-opacity:1">Auto-Login</flowPara></flowRoot>  </g>
+</svg>
