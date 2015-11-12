@@ -11,3 +11,8 @@ pageMod.PageMod({
     include: /http:\/\/www.studon.uni-erlangen.de\/studon\/.*/,
     contentScriptFile: './studon.js'
 });
+
+pageMod.PageMod({
+    include: /https:\/\/www.campus.uni-erlangen.de\/qisserver\/rds.*/,
+    contentScriptFile: './campus.js'
+});

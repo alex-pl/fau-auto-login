@@ -4,11 +4,13 @@ This Add-on automates the login process on several FAU (Friedrich-Alexander-Univ
 Supported sites:
 * SSO login page (Username and password have to be filled via the browsers password manager!)
 * StudOn (redirect to SSO login page)
+* mein campus (redirect to SSO login page)
 
 Feel free to suggest additional sites!
 
 ## Add-on Downloads
-* Firefox Add-on: https://addons.mozilla.org/firefox/addon/fau-auto-login/
+* Firefox Desktop: https://addons.mozilla.org/firefox/addon/fau-auto-login/
+* Firefox for Android: https://addons.mozilla.org/android/addon/fau-auto-login/
 
 ## Developer Notes
 This is a hybrid Add-on which can be exported as a JPM-Add-on as well as a WebExtension. Both extension types use the same Add-on identifier as it doesn't make sense to install both versions at the same time. Additionaly only one of both versions will be available at Firefox Add-ons.

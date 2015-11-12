@@ -23,6 +23,10 @@
         {
             "matches": ["http://www.studon.uni-erlangen.de/studon/*"],
             "js": ["data/studon.js"]
+        },
+        {
+            "matches": ["https://www.campus.uni-erlangen.de/qisserver/rds*"],
+            "js": ["data/campus.js"]
         }
     ]
 }
