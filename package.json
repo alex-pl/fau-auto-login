@@ -8,7 +8,8 @@
     "author": "Alexander Ploner",
     "homepage": "https://github.com/alex-pl/fau-auto-login",
     "engines": {
-        "firefox": ">=34.0a1"
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
     },
     "license": "MIT"
 }
