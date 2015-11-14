@@ -20,12 +20,18 @@ This is a hybrid Add-on which can be exported as a JPM-Add-on as well as a WebEx
 * index.js
 * .jpmignore
 
-Create and install Add-on with `jpm xpi; open fau-auto-login@*.xpi` (Mac)
+Create and install Add-on for Firefox:
+`$ ./build.sh xpi`
 
 ### WebExtension specific files
 * manifest.json
+* manifest.chrome.json
 
-Create and install Add-on with `zip fau-auto-login.xpi manifest.json README.md *.png data/*; open fau-auto-login.xpi` (Mac)
+Create and install Webextension for Firefox:
+`$ ./build.sh xpi-web`
+
+Create crx extension files for Chorme and Opera:
+`$ ./build.sh crx`
 
 ## MIT License (MIT)
 
