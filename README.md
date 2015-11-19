@@ -11,6 +11,8 @@ Feel free to suggest additional sites!
 ## Add-on Downloads
 * Firefox Desktop: https://addons.mozilla.org/firefox/addon/fau-auto-login/
 * Firefox for Android: https://addons.mozilla.org/android/addon/fau-auto-login/
+* Chrome: https://chrome.google.com/webstore/detail/mmfijonpcpoiapcfmfieaaccmljmkidf/
+* Opera: https://addons.opera.com/extensions/details/fau-auto-login/
 
 ## Developer Notes
 This is a hybrid Add-on which can be exported as a JPM-Add-on as well as a WebExtension. Both extension types use the same Add-on identifier as it doesn't make sense to install both versions at the same time. Additionaly only one of both versions will be available at Firefox Add-ons.
@@ -20,14 +22,14 @@ This is a hybrid Add-on which can be exported as a JPM-Add-on as well as a WebEx
 * index.js
 * .jpmignore
 
-Create and install Add-on for Firefox:
+Create and install Firefox Add-on:
 `$ ./build.sh xpi`
 
 ### WebExtension specific files
 * manifest.json
 * manifest.chrome.json
 
-Create and install Webextension for Firefox:
+Create and install Firefox WebExtension:
 `$ ./build.sh xpi-web`
 
 Create crx extension files for Chorme and Opera:

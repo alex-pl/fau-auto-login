@@ -18,6 +18,9 @@ case "$1" in
         cp manifest.chrome.json build/chrome/manifest.json
         cp *.png build/chrome/
         cp README.md build/chrome/
+        cd build/chrome
+        zip -r ../fau-auto-login.zip .
+        cd ../..
         echo "crx extension files created in build/chrome/"
         ;;
 
@@ -25,5 +28,5 @@ case "$1" in
         echo "commands:"
         echo "   xpi       generate add-on xpi for Firefox"
         echo "   xpi-web   generate webextension xpi for Firefox"
-        echo "   crx       generate Chrome/Opera files for crx extensions"
+        echo "   crx       generate crx extension files for Chrome/Opera"
 esac
