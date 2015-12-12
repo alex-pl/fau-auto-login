@@ -24,9 +24,15 @@ case "$1" in
         echo "crx extension files created in build/chrome/"
         ;;
 
+    run-ff)
+        # open xpi in Firefox via Extension Auto-Installer
+        curl --data-binary @`echo *.xpi` -H 'Expect:' http://localhost:8888/ && echo "Install successful"
+        ;;
+
     *)
         echo "commands:"
         echo "   xpi       generate add-on xpi for Firefox"
         echo "   xpi-web   generate webextension xpi for Firefox"
         echo "   crx       generate crx extension files for Chrome/Opera"
+        echo "   run-ff    install xpi file in Firefox (Extension Auto-Installer required)"
 esac
