@@ -17,7 +17,7 @@ function tryLogin() {
     return false;
 }
 
-// do nothing, if an error messages is shown
+// do nothing, if an error message is shown
 if (!document.querySelector('.error')) {
 
     formular = document.querySelector('form[name="f"]');
