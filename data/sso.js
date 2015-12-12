@@ -1,16 +1,37 @@
 'use strict';
 
-// stop on error
-if (!document.querySelector('.error')) {
+let formular,
+    username,
+    password;
 
-    // check if login data is entered
-    if (document.getElementById('username').value &&
-        document.getElementById('password').value) {
+function tryLogin() {
+    if (username.value &&
+        password.value) {
 
         // get login form and submit it
-        let form = document.querySelector('form[name="f"]');
-        form.submit();
+        formular.submit();
+        return true;
 
+    }
+
+    return false;
+}
+
+// do nothing, if an error messages is shown
+if (!document.querySelector('.error')) {
+
+    formular = document.querySelector('form[name="f"]');
+
+    if (formular) {
+        username = document.getElementById('username');
+        password = document.getElementById('password');
+
+        if (!tryLogin()) {
+            // if no login data is entered, try to get it from password manager
+            // => this opens the master password dialog, if necessary
+            self.port.on('tryLogin', tryLogin);
+            self.port.emit('noLoginData');
+        }
     }
 
 }
