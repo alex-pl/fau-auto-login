@@ -15,7 +15,7 @@ case "$1" in
 
     xpi-web)
         # generate webextension xpi for Firefox
-        zip fau-auto-login.xpi manifest.json README.md *.png data/* \
+        zip fau-auto-login.xpi manifest.json icon*.png data/* \
         && echo "xpi webextension created"
         ;;
 
