@@ -3,8 +3,7 @@ const zip = require('gulp-zip');
 const rename = require('gulp-rename');
 const clean = require('gulp-clean');
 
-gulp.task('default', function () {
-});
+gulp.task('default', ['firefox', 'chrome']);
 
 // firefox
 gulp.task('firefox', function () {
