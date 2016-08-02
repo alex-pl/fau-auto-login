@@ -1,2 +1,4 @@
 *.xpi
 build/
+node_modules/
+dist/

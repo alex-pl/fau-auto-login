@@ -1,0 +1,15 @@
+{
+    "id": "fau-auto-login@alexander-ploner.com",
+    "title": "FAU Auto-Login",
+    "name": "fau-auto-login",
+    "version": "1.2.0",
+    "description": "This Add-on automates the login process on several FAU (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.",
+    "main": "index.js",
+    "author": "Alexander Ploner",
+    "homepage": "https://github.com/alex-pl/fau-auto-login",
+    "engines": {
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
+    },
+    "license": "MIT"
+}

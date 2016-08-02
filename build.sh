@@ -3,7 +3,7 @@ case "$1" in
         # generate add-on xpi for Firefox
         mkdir -p build/firefox \
         && cp -R data       build/firefox \
-        && cp package.json  build/firefox \
+        && cp package.firefox.json  build/firefox/package.json \
         && cp icon*.png     build/firefox \
         && cp index.js      build/firefox \
         && cd build/firefox \
