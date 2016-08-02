@@ -1,5 +1,5 @@
 # FAU Auto-Login
-This Add-on automates the login process on several FAU (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.
+This Add-on automates the login process on several [FAU](https://www.fau.de/) (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.
 
 Supported sites:
 * SSO login page (Username and password have to be filled via the browsers password manager!)
@@ -9,10 +9,10 @@ Supported sites:
 Feel free to suggest additional sites!
 
 ## Add-on Downloads
-* Firefox Desktop: https://addons.mozilla.org/firefox/addon/fau-auto-login/
-* Firefox for Android: https://addons.mozilla.org/android/addon/fau-auto-login/
-* Chrome: https://chrome.google.com/webstore/detail/mmfijonpcpoiapcfmfieaaccmljmkidf/
-* Opera: https://addons.opera.com/extensions/details/fau-auto-login/
+* [Firefox Desktop](https://addons.mozilla.org/firefox/addon/fau-auto-login/)
+* [Firefox for Android](https://addons.mozilla.org/android/addon/fau-auto-login/)
+* [Chrome](https://chrome.google.com/webstore/detail/mmfijonpcpoiapcfmfieaaccmljmkidf/)
+* [Opera](https://addons.opera.com/extensions/details/fau-auto-login/)
 
 ## Developer Notes
 This is a hybrid Add-on which can be exported as a JPM-Add-on as well as a WebExtension. Both extension types use the same Add-on identifier as it doesn't make sense to install both versions at the same time. Additionaly only one of both versions will be available at Firefox Add-ons.
@@ -37,7 +37,7 @@ Create crx extension files for Chorme and Opera:
 
 ## MIT License (MIT)
 
-Copyright (c) 2015 Alexander Ploner
+Copyright (c) 2015 - 2016 Alexander Ploner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
