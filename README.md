@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/alex-pl/fau-auto-login.svg?branch=master)](https://travis-ci.org/alex-pl/fau-auto-login)
+
 # FAU Auto-Login
 This Add-on automates the login process on several [FAU](https://www.fau.de/) (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.
 
