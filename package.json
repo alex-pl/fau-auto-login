@@ -9,7 +9,7 @@
   "homepage": "https://github.com/alex-pl/fau-auto-login",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
