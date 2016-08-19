@@ -7,7 +7,7 @@ gulp.task('default', ['firefox', 'chrome']);
 
 // firefox
 gulp.task('firefox', function () {
-    return gulp.src(['manifest.firefox.json', 'icon*.png', 'data/*'], {base: './'})
+    return gulp.src(['manifest.firefox.json', 'images/icon*.png', 'sites/*'], {base: './'})
         .pipe(rename(path => {
             if (path.basename == 'manifest.firefox') {
                 path.basename = 'manifest';
@@ -19,7 +19,7 @@ gulp.task('firefox', function () {
 
 // chrome, edge and opera
 gulp.task('chrome', function () {
-    return gulp.src(['manifest.chrome.json', 'icon*.png', 'data/*'], {base: './'})
+    return gulp.src(['manifest.chrome.json', 'images/icon*.png', 'sites/*'], {base: './'})
         .pipe(rename(path => {
             if (path.basename == 'manifest.chrome') {
                 path.basename = 'manifest';

@@ -11,22 +11,22 @@
     "homepage_url": "https://github.com/alex-pl/fau-auto-login",
     "version": "2.0.0",
     "icons": {
-        "48": "icon48.png",
-        "128": "icon.png"
+        "48": "images/icon48.png",
+        "128": "images/icon.png"
     },
 
     "content_scripts": [
         {
             "matches": ["https://www.sso.uni-erlangen.de/simplesaml/module.php/core/loginuserpass.php*"],
-            "js": ["data/sso.js"]
+            "js": ["sites/sso.js"]
         },
         {
             "matches": ["https://www.studon.fau.de/studon/*"],
-            "js": ["data/studon.js"]
+            "js": ["sites/studon.js"]
         },
         {
             "matches": ["https://www.campus.uni-erlangen.de/qisserver/rds*"],
-            "js": ["data/campus.js"]
+            "js": ["sites/campus.js"]
         }
     ]
 }
