@@ -1,41 +1,70 @@
+# FAU Auto-Login
 [![Build Status](https://travis-ci.org/alex-pl/fau-auto-login.svg?branch=master)](https://travis-ci.org/alex-pl/fau-auto-login)
 
-# FAU Auto-Login
 This Add-on automates the login process on several [FAU](https://www.fau.de/) (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.
 
-Supported sites:
-* SSO login page (Username and password have to be filled via the browsers password manager!)
-* StudOn (redirect to SSO login page)
-* mein campus (redirect to SSO login page)
+## Supported Sites
+Login (username and password have to be filled via the browsers password manager)
+* SSO login page
 
-Feel free to suggest additional sites!
+Automatic redirect to the SSO login page
+* StudOn
+* mein campus
+
+Feel free to suggest or implement additional sites! :)
 
 ## Add-on Downloads
 * [Firefox Desktop](https://addons.mozilla.org/firefox/addon/fau-auto-login/)
 * [Firefox for Android](https://addons.mozilla.org/android/addon/fau-auto-login/)
 * [Chrome](https://chrome.google.com/webstore/detail/mmfijonpcpoiapcfmfieaaccmljmkidf/)
 * [Opera](https://addons.opera.com/extensions/details/fau-auto-login/)
+* Edge Extension will be published as soon as Microsoft allows it :)
+
 
 ## Developer Notes
-This is a hybrid Add-on which can be exported as a JPM-Add-on as well as a WebExtension. Both extension types use the same Add-on identifier as it doesn't make sense to install both versions at the same time. Additionaly only one of both versions will be available at Firefox Add-ons.
 
-### JPM specific files
-* package.json
-* index.js
-* .jpmignore
+### Set up
 
-Create and install Firefox Add-on:
-`$ ./build.sh xpi`
+1.  Install a current version of [NodeJS](https://nodejs.org/en/download/).
+2.  Install Gulp
 
-### WebExtension specific files
-* manifest.json
-* manifest.chrome.json
+    ```Shell
+    npm install -g gulp
+    ```
+3. Install dependencies
 
-Create and install Firefox WebExtension:
-`$ ./build.sh xpi-web`
+    ```Shell
+    npm install
+    ```
 
-Create crx extension files for Chorme and Opera:
-`$ ./build.sh crx`
+### Build
+
+All builds are created inside the `dist/` directory.
+
+Build all Add-on versions:
+```Shell
+gulp
+```
+
+Build the Firefox extension (Desktop and Android):
+```Shell
+gulp firefox
+```
+
+Create the files for Chorme, Edge and Opera:
+```Shell
+gulp chrome
+```
+
+
+### Browser-Specific files
+
+Not all browsers are able to use the same files.
+The right file for every browser is selected during the build process.
+
+* manifest.firefox.json => Firefox Desktop, Firefox Android
+* manifest.chrome.json => Chrome, Edge, Opera
+
 
 ## MIT License (MIT)
 
