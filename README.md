@@ -1,7 +1,17 @@
-# FAU Auto-Login
 [![Build Status](https://travis-ci.org/alex-pl/fau-auto-login.svg?branch=master)](https://travis-ci.org/alex-pl/fau-auto-login)
 
+# FAU Auto-Login
+
 This Add-on automates the login process on several [FAU](https://www.fau.de/) (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.
+
+
+## Add-on Downloads
+* [Firefox Desktop](https://addons.mozilla.org/firefox/addon/fau-auto-login/)
+* [Firefox for Android](https://addons.mozilla.org/android/addon/fau-auto-login/)
+* [Chrome](https://chrome.google.com/webstore/detail/mmfijonpcpoiapcfmfieaaccmljmkidf/)
+* [Opera](https://addons.opera.com/extensions/details/fau-auto-login/)
+* Edge Extension will be published as soon as Microsoft allows it :)
+
 
 ## Supported Sites
 Login (username and password have to be filled via the browsers password manager)
@@ -12,13 +22,6 @@ Automatic redirect to the SSO login page
 * mein campus
 
 Feel free to suggest or implement additional sites! :)
-
-## Add-on Downloads
-* [Firefox Desktop](https://addons.mozilla.org/firefox/addon/fau-auto-login/)
-* [Firefox for Android](https://addons.mozilla.org/android/addon/fau-auto-login/)
-* [Chrome](https://chrome.google.com/webstore/detail/mmfijonpcpoiapcfmfieaaccmljmkidf/)
-* [Opera](https://addons.opera.com/extensions/details/fau-auto-login/)
-* Edge Extension will be published as soon as Microsoft allows it :)
 
 
 ## Developer Notes
