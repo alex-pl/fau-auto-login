@@ -3,7 +3,7 @@ const gulp = require('gulp'),
       rename = require('gulp-rename'),
       clean = require('gulp-clean');
 
-gulp.task('default', ['firefox', 'chrome', 'edge']);
+gulp.task('default', ['firefox', 'chrome']);
 
 // firefox
 gulp.task('firefox', function () {
