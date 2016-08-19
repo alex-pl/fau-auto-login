@@ -1,9 +1,9 @@
-const gulp = require('gulp');
-const zip = require('gulp-zip');
-const rename = require('gulp-rename');
-const clean = require('gulp-clean');
+const gulp = require('gulp'),
+      zip = require('gulp-zip'),
+      rename = require('gulp-rename'),
+      clean = require('gulp-clean');
 
-gulp.task('default', ['firefox', 'chrome']);
+gulp.task('default', ['firefox', 'chrome', 'edge']);
 
 // firefox
 gulp.task('firefox', function () {
@@ -17,7 +17,7 @@ gulp.task('firefox', function () {
         .pipe(gulp.dest('dist'));
 });
 
-// chrome and opera
+// chrome, edge and opera
 gulp.task('chrome', function () {
     return gulp.src(['manifest.chrome.json', 'icon*.png', 'data/*'], {base: './'})
         .pipe(rename(path => {
@@ -28,18 +28,6 @@ gulp.task('chrome', function () {
         .pipe(zip('fau-auto-login.chrome.zip'))
         .pipe(gulp.dest('dist'));
 });
-
-// edge
-// gulp.task('edge', function () {
-//     return gulp.src(['manifest.firefox.json', 'icon*.png', 'data/*'], {base: './'})
-//         .pipe(rename(path => {
-//             if (path.basename == 'manifest.firefox') {
-//                 path.basename = 'manifest';
-//             }
-//         }))
-//         .pipe(zip('fau-auto-login.edge.zip'))
-//         .pipe(gulp.dest('dist'));
-// });
 
 // remove
 gulp.task('clean', function () {
