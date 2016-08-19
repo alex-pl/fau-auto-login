@@ -3,7 +3,7 @@
   "title": "FAU Auto-Login",
   "name": "fau-auto-login",
   "version": "2.0.0",
-  "description": "This Add-on automates the login process on several FAU (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.",
+  "description": "Automatic login for several FAU (Friedrich-Alexander-Universität Erlangen-Nürnberg) websites.",
   "main": "index.js",
   "author": "Alexander Ploner",
   "homepage": "https://github.com/alex-pl/fau-auto-login",
