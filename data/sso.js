@@ -27,10 +27,7 @@ if (!document.querySelector('.error')) {
         password = document.getElementById('password');
 
         if (!tryLogin()) {
-            // if no login data is entered, try to get it from password manager
-            // => this opens the master password dialog, if necessary
-            self.port.on('tryLogin', tryLogin);
-            self.port.emit('noLoginData');
+            // if no login data is entered, we could try to get it from a password manager and repeat tryLogin()
         }
     }
 
