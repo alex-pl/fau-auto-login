@@ -21,7 +21,7 @@
             "js": ["data/sso.js"]
         },
         {
-            "matches": ["http://www.studon.uni-erlangen.de/studon/*"],
+            "matches": ["https://www.studon.fau.de/studon/*"],
             "js": ["data/studon.js"]
         },
         {

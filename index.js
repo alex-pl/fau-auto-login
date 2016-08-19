@@ -10,7 +10,7 @@ pageMod.PageMod({
 });
 
 pageMod.PageMod({
-    include: /http:\/\/www.studon.uni-erlangen.de\/studon\/.*/,
+    include: /https:\/\/www.studon.fau.de\/studon\/.*/,
     contentScriptFile: './studon.js'
 });
 
